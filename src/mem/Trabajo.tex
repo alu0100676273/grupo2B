@@ -1,9 +1,9 @@
 \documentclass[spanish,a4paper,11pt,twoside]{report}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
 \usepackage[dvips]{graphicx}
 \usepackage[dvips]{epsfig}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage{alltt}
 \usepackage{templates/algorithm}
 \usepackage{templates/algorithmic}
@@ -67,20 +67,20 @@
 \thispagestyle{empty}
 
 \begin{center}
-\includegraphics[width=0.25\textwidth]{images/logotipo-secundario-ULL}\\[0.50cm]
+\includegraphics[width=0.2\textwidth]{images/logotipo-secundario-ULL}\\[0.25cm]
 \end{center}
 
 \HRule
 \begin{center}
-        {\Huge Regla del Trapecio} \\[3.0mm] 
-        {\Huge Integración} \\[3.0mm]
-        {\Large Samanta Belén Lara Giannone\\
-                Óscar Méndez Villavicencio\\
-                Nuria Cecilia Martín Cruz\\} \\[5mm]
-        {\Large \textit{Grupo $2B$}} \\[5mm]
+        {\Huge Regla del Trapecio} \\[2.5mm] 
+        {\Huge Integración} \\[2.5mm]
+        {\Large (Samanta Belén Lara Giannone)\\
+                (Óscar Méndez Villavicencio)\\
+                (Nuria Cecilia Martín Cruz)\\} \\[5mm]
+        {\Large \textit{Grupo ($12Bd2$) }} \\[5mm]
 
 
-        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[10mm]
+        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
         Lenguajes y Sistemas Informáticos \\[5mm]
         Facultad de Matemáticas \\[5mm]
         
@@ -95,13 +95,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{\pagestyle{empty}\cleardoublepage}
 
-\pagestyle{myheadings} 
-\markboth{Samanta Belén Lara Giannone\\
-          Óscar Méndez Villavicencio\\
-          Nuria Cecilia Martín Cruz}{Regla del Trapecio}
+\pagestyle{myheadings} %my head defined by markboth or markright
+% No funciona bien \markboth sin "twoside" en \documentclass, pero al
+% ponerlo se dan un montón de errores de underfull \vbox, con lo que no se
+% ha puesto.
+\markboth{Nombre del alumno}{Título del trabajo}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%Numeracion en romanos
 \renewcommand{\thepage}{\roman{page}}
 \setcounter{page}{1}
 
