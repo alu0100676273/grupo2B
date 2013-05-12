@@ -1,21 +1,22 @@
 \documentclass[spanish,a4paper,11pt,twoside]{report}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage[dvips]{graphicx}
 \usepackage[dvips]{epsfig}
-\usepackage[latin1]{inputenc}
-\usepackage[spanish]{babel}
 \usepackage{alltt}
 \usepackage{templates/algorithm}
 \usepackage{templates/algorithmic}
 \usepackage{templates/multirow}
-
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\SONY}{{\sc Sony}}
 \newcommand{\MICROSOFT}{{\sc Microsoft}}
 \newcommand{\GCC}{\textsf{\textsc{G}CC}}
 \newcommand{\INTEL}{\textsf{\textsc{I}ntel}}
-
+\newcommand{\fdelta}{\delta_n (x)}
 %%% Traducimos el pseudocodigo
 \renewcommand{\algorithmicwhile}{\textbf{mientras}}
 \renewcommand{\algorithmicend}{\textbf{fin}}
@@ -62,25 +63,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
-
 \pagestyle{empty}
 \thispagestyle{empty}
 
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0mm}
+\vspace*{\stretch{1}}
+
 \begin{center}
-\includegraphics[width=0.2\textwidth]{images/logotipo-secundario-ULL}\\[0.25cm]
+\includegraphics[width=0.25\textwidth]{images/logotipo-secundario-ULL}
 \end{center}
 
-\HRule
+
 \begin{center}
-        {\Huge Regla del Trapecio} \\[2.5mm] 
-        {\Huge Integración} \\[2.5mm]
-        {\Large (Samanta Belén Lara Giannone)\\
-                (Óscar Méndez Villavicencio)\\
-                (Nuria Cecilia Martín Cruz)\\} \\[5mm]
-        {\Large \textit{Grupo ($12Bd2$) }} \\[5mm]
+        {\Huge Regla del Trapecio} \\[4.0mm] 
+        {\Huge Integración} \\[3.0mm]
+        {\Large Nuria Cecilia Martín Cruz\\
+                Óscar Méndez Villavicencio\\
+                Samanta Belén Lara Giannone}\\[5mm]
+        {\Large \textit{Grupo $2B$}} \\[5mm]
 
 
-        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
+        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[10mm]
         Lenguajes y Sistemas Informáticos \\[5mm]
         Facultad de Matemáticas \\[5mm]
         
@@ -91,5 +96,94 @@
 \begin{center}
   La Laguna, \today 
 \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{\pagestyle{empty}}
+
+\pagestyle{myheadings} 
+\markboth{Samanta Belén Lara Giannone\\
+          Óscar Méndez Villavicencio\\
+          Nuria Cecilia Martín Cruz}{Regla del Trapecio}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\thepage}{\roman{page}}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{\pagestyle{empty}\cleardoublepage}
+
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{\pagestyle{empty}\cleardoublepage}
+
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{\pagestyle{empty}\cleardoublepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Numeracion a partir del capitulo I
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\setlength{\parindent}{5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Motivación y objetivos}
+\label{chapter:obj}
+\input{tex/cap1.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Fundamentos teóricos}
+\label{chapter:teo}
+\input{tex/cap2.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Procedimiento experimental}
+\label{chapter:exp}
+
+\input{tex/cap3.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Conclusiones}
+\label{chapter:conclusiones}
+
+\input{tex/cap4.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{\pagestyle{empty}\cleardoublepage}
+\thispagestyle{empty}
+\begin{appendix}
+
+\chapter{Título del Apéndice 1}
+\label{appendix:1}
+
+\input{tex/apendice1.tex}
+
+\chapter{Título del Apéndice 2}
+\label{appendix:2}
+
+\input{tex/apendice2.tex}
+
+\end{appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{Bibliografía}
+\bibliographystyle{plain}
+
+
+\bibliography{bib/references}
+\nocite{*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \end{document}
