@@ -67,16 +67,16 @@
 \thispagestyle{empty}
 
 \begin{center}
-\includegraphics[width=0.25\textwidth]{images/logotipo-secundario-ULL}\\[0.50cm]
+\includegraphics[width=0.25\textwidth]{images/logotipo-secundario-ULL}
 \end{center}
 
-\HRule
+
 \begin{center}
-        {\Huge Regla del Trapecio} \\[3.0mm] 
+        {\Huge Regla del Trapecio} \\[4.0mm] 
         {\Huge Integración} \\[3.0mm]
         {\Large Samanta Belén Lara Giannone\\
                 Óscar Méndez Villavicencio\\
-                Nuria Cecilia Martín Cruz\\} \\[5mm]
+                Nuria Cecilia Martín Cruz} \\[5mm]
         {\Large \textit{Grupo $2B$}} \\[5mm]
 
 
@@ -86,8 +86,7 @@
         
         Universidad de La Laguna \\
 \end{center}
-\HRule
-\vspace*{\stretch{2}}
+
 \begin{center}
   La Laguna, \today 
 \end{center}
@@ -132,7 +131,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Motivación y objetivos}
 \label{chapter:obj}
-
+\begin{center}
+\includegraphics[width=0.25\textwidth]{images/Regla-Trapecio}\\[0.50cm]
+\end{center}
 \input{tex/cap1.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,7 +141,9 @@
 \label{chapter:teo}
 
 \input{tex/cap2.tex}
-
+\begin{center}
+\includegraphics[width=0.25\textwidth]{images/Regla-Trap-compuesta}\\[0.50cm]
+\end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Procedimiento experimental}
 \label{chapter:exp}
@@ -173,12 +176,13 @@
 \end{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{bibliography}
 \addcontentsline{toc}{chapter}{Bibliografía}
 \bibliographystyle{plain}
 
-
 \bibliography{bib/references}
 \nocite{*}
+\end{bibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -1,6 +1,6 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Motivaci\IeC {\'o}n y objetivos}{1}
-\contentsline {section}{\numberline {1.1}Secci\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:ónUn not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}o}{1}
+\contentsline {section}{\numberline {1.1}Secci\'on Uno}{1}
 \contentsline {section}{\numberline {1.2}Secci\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:ónDo not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}s}{1}
 \contentsline {chapter}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{2}
 \contentsline {section}{\numberline {2.1}Primer apartado del segundo cap\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:ítu not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}lo}{2}
@@ -17,4 +17,3 @@
 \contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{8}
 \contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{8}
 \contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{8}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{8}
