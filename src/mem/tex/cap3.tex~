@@ -2,25 +2,47 @@
 % Capítulo 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Este capítulo ha de contar con seccciones para la descripción de los experimentos 
-y del material.
-%
-También debe haber una sección para los resultados obtenidos y una última de 
-análisis de los resultados.
+%Este capítulo ha de contar con seccciones para la descripción de los experimentos 
+%y del material.
+
+%También debe haber una sección para los resultados obtenidos y una última de 
+%análisis de los resultados.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
 \parindent=1cm
 \raggedright
-bla, bla, etc. 
+El experimento llevado a cabo es la realización de la integral definida y la aproximación
+mediante la regla del trapecio y la regla del trapecio compuesta. Además de conocer el error
+de truncamiento que existe. Veamos\\
+Integral definida 
+\[
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx0.682689 
+\]
+Regla del Trapecio
+\[
+\int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)a\right)\frac{f(-1)+f(1)}{2}
+\]
+Regla del Trapecio compuesta con n=4
+\[
+h=\frac{1-(-1)}{4} =\frac{1}{2} 
+\]
+\[
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]
+\]
+
+Tomando $\Etsilon$ con un valor de   , el error de truncamiento es:
+
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
 \parindent=1cm
 \raggedright
-bla, bla, etc. 
+El material que hemos empleado para la realización de este proyecto es el lenguaje de
+programación Python, para la creación de los programas que verifican este método de integración, 
+y el sistema de composición de textos \LaTeX para el diseño del proyecto.
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -28,9 +50,19 @@ bla, bla, etc.
 \label{3:sec:3}
 \parindent=1cm
 \raggedright
-bla, bla, etc. 
-
-
+Los resultados obtenidos son:
+Integral definida 
+\[
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx0.682689 
+\]
+Regla del Trapecio
+\[
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}=0.483941
+\]
+Regla del Trapecio compuesta con n=4
+\[
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx=0.882385
+\]
 %------------------------------------------------------------------------------
 %\begin{figure}[!th]
 %\begin{center}
@@ -40,9 +72,7 @@ bla, bla, etc.
 %\end{center}
 %\end{figure}
 %------------------------------------------------------------------------------
-
-
-%------------------------------------------------------------------------------
+Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta
 \input{tables/table.tex}
 %------------------------------------------------------------------------------
 
@@ -51,5 +81,5 @@ bla, bla, etc.
 \label{3:sec:4}
 \parindent=1cm
 \raggedright
-bla, bla, etc. 
+ 
 
