@@ -9,7 +9,7 @@
 %análisis de los resultados.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Descripción de los experimentos}
+\section{Descripci\'on de los experimentos}
 \label{3:sec:1}
 \parindent=1cm
 \raggedright
@@ -36,7 +36,7 @@ Tomando $\Etsilon$ con un valor de   , el error de truncamiento es:
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Descripción del material}
+\section{Descripci\'on del material}
 \label{3:sec:2}
 \parindent=1cm
 \raggedright
@@ -53,15 +53,15 @@ y el sistema de composición de textos \LaTeX para el diseño del proyecto.
 Los resultados obtenidos son:
 Integral definida 
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx0.682689 
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx0.682689 
 \]
 Regla del Trapecio
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}=0.483941
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}=0.483941
 \]
 Regla del Trapecio compuesta con n=4
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx=0.882385
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx=0.882385
 \]
 %------------------------------------------------------------------------------
 %\begin{figure}[!th]
@@ -77,7 +77,7 @@ Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y l
 %------------------------------------------------------------------------------
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Análisis de los resultados}
+\section{An\'alisis de los resultados}
 \label{3:sec:4}
 \parindent=1cm
 \raggedright

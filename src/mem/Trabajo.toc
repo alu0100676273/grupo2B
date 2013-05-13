@@ -1,15 +1,15 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Motivaci\IeC {\'o}n y objetivos}{1}
-\contentsline {section}{\numberline {1.1}Primera Secci\par }{1}
-\contentsline {section}{\numberline {1.2}Segunda Secci\par }{1}
+\contentsline {section}{\numberline {1.1}Primera Secci\'on}{1}
+\contentsline {section}{\numberline {1.2}Segunda Secci\'on}{1}
 \contentsline {chapter}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{2}
 \contentsline {section}{\numberline {2.1}Regla del Trapecio}{2}
 \contentsline {section}{\numberline {2.2}Regla del Trapecio compuesta}{2}
 \contentsline {chapter}{\numberline {3}Procedimiento experimental}{4}
-\contentsline {section}{\numberline {3.1}Descripci\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:ónde not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.} los experimentos}{4}
-\contentsline {section}{\numberline {3.2}Descripci\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:ónde not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}l material}{4}
+\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{4}
+\contentsline {section}{\numberline {3.2}Descripci\'on del material}{4}
 \contentsline {section}{\numberline {3.3}Resultados obtenidos}{5}
-\contentsline {section}{\numberline {3.4}An\GenericError {(inputenc) }{Package inputenc Error: Unicode char \u 8:áli not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}sis de los resultados}{5}
+\contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{5}
 \contentsline {chapter}{\numberline {4}Conclusiones}{6}
 \contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{7}
 \contentsline {section}{\numberline {A.1}Algoritmo XXX}{7}
