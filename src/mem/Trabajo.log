@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  12 MAY 2013 18:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  13 MAY 2013 15:54
 entering extended mode
  %&-line parsing enabled.
 **Trabajo.tex
@@ -603,53 +603,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.28 Para la realización de
-                            este trabajo emplearemos la función
-? 
-
-! Package inputenc Error: Unicode char \u8:ón\[f not set up for use with LaTeX.
-
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 f
-      (x)=\frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.30 f(x)=\frac{1}{sqrt(2\pi)}
-                               \quad\text{e}^{\frac{-x^2}{2}}
-? 
-! Extra }, or forgotten $.
-\frac #1#2->{\begingroup #1\endgroup \over #2}
-                                              
-l.30 f(x)=\frac{1}{sqrt(2\pi)}
-                               \quad\text{e}^{\frac{-x^2}{2}}
+                            este trabajo emplearemos la funci\'on:
 ? 
 ! Undefined control sequence.
-l.30 f(x)=\frac{1}{sqrt(2\pi)} \quad\text
-                                         {e}^{\frac{-x^2}{2}}
+l.30   f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
+                                            {e}^{\frac{-x^2}{2}}
 ? 
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \]
-       
-? 
-)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.135 
-      
-? 
-[1
+) [1
 
 ]
 Cap\'{\i }tulo 2.
@@ -997,12 +957,7 @@ l.45 ...osición de textos \LaTeX para el diseño de
                                                   l proyecto.
 ? 
 ! Undefined control sequence.
-l.56 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
-                                                  {e}^{\frac{-x^2}{2}}dx\app...
-
-? 
-! Undefined control sequence.
-l.60 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
+l.56 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
@@ -1010,7 +965,12 @@ l.60 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
 
 ]
 ! Undefined control sequence.
-l.64 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
+l.60 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+                                                  {e}^{\frac{-x^2}{2}}dx\app...
+
+? 
+! Undefined control sequence.
+l.64 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
@@ -1040,18 +1000,14 @@ Ap\'{e}ndice B.
 No file Trabajo.bbl.
 [8
 
-] (./Trabajo.aux) )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 30 ({)
-### bottom level 
+] (./Trabajo.aux) ) 
 Here is how much of TeX's memory you used:
- 1911 strings out of 495062
- 22347 string characters out of 1182644
- 77282 words of memory out of 3000000
- 5037 multiletter control sequences out of 15000+50000
+ 1910 strings out of 495062
+ 22339 string characters out of 1182644
+ 76282 words of memory out of 3000000
+ 5036 multiletter control sequences out of 15000+50000
  12532 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,9n,27p,940b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,9n,27p,940b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Trabajo.dvi (15 pages, 15528 bytes).
+Output written on Trabajo.dvi (15 pages, 15688 bytes).
