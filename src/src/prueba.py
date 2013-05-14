@@ -2,13 +2,16 @@
 import random,sys
 from math import *
 def f(x) :
-  return (1/sqrt(2*pi))*exp(-(x**2)/2)
+  simple=1/sqrt(2*pi)*exp(-x**2/2)
+  return simple
 
-def trap_simple(f,A,B) :
-  simple=(B-A)*(f(A)+f(B))/2
+def trapecio_simple(f,A,B) :
+  a=f(A)
+  b=f(B)
+  simple=(B-A)*((a+b)/2)
   return simple
   
-def trap_compuesta(f,A,B,n) :
+def trapecio_compuesto(f,A,B,n) :
   h=(B-A)/n
   k=1
   valor=0
@@ -22,14 +25,14 @@ def trap_compuesta(f,A,B,n) :
    
 if __name__=='__main__':
   
-  if len(sys.argv) < 2 :
+  if len(sys.argv) < 4 :
     print 'Has introducido menos argumentos de los necesarios'
     
-  elif len(sys.argv) == 2 :
-    A=-1
-    B=1
-    n=int(sys.argv[1])
-    print 'El resultado de la regla del trapecio simple es', trap_simple(f,A,B)
-    print 'El resultado de la regla del trapecio compuesta es', trap_compuesta(f,A,B,n)
+  elif len(sys.argv) == 4 :
+    A=int(sys.argv[1])
+    B=int(sys.argv[2])
+    n=int(sys.argv[3])
+    print 'El resultado de la regla del trapecio simple es', trapecio_simple(f,A,B)
+    print 'El resultado de la regla del trapecio compuesta es', trapecio_compuesto(f,A,B,n)
     
     

@@ -1,25 +1,25 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Cap韙ulo 2: Fundamentos Te髍icos 
+% Cap铆tulo 2: Fundamentos Te贸ricos 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-%En este cap韙ulo se han de presentar los antecedentes te髍icos y pr醕ticos que
-%apoyan el tema objeto de la investigaci髇.
+%En este cap铆tulo se han de presentar los antecedentes te贸ricos y pr谩cticos que
+%apoyan el tema objeto de la investigaci贸n.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Regla del Trapecio}
 \label{2:sec:1}
 \parindent=0.5cm
 \raggedright
-Este m閠odo integraci髇 num閞ica calcula aproximadamente el valor de la integral definida. 
-Se aproxima el valor de la integral de f(x) por el de la funci髇 lineal que pasa 
-a trav閟 de los puntos(a,f(a)) y (b,f(b)). La integral de 閟ta es igual al 醨ea del 
-trapecio bajo la gr醘ica de la funci髇 lineal. Se sigue que: 
+Este m茅todo integraci贸n num茅rica calcula aproximadamente el valor de la integral definida. 
+Se aproxima el valor de la integral de f(x) por el de la funci贸n lineal que pasa 
+a trav锟絪 de los puntos(a,f(a)) y (b,f(b)). La integral de esta es igual al 谩rea del 
+trapecio bajo la gr谩fica de la funci贸n lineal. Se sigue que: 
 \[
 \int_{a}^{b} f(x)dx \approx\left(b-a\right)\frac{f(a)+f(b)}{2} 
 \]
-Una estimaci髇 para el error de truncamiento local de una sola aplicaci髇 de la regla trapezoidal es:
+Una estimaci贸n para el error de truncamiento local de una sola aplicaci贸n de la regla trapezoidal es:
 \[
 -\frac{\left(b-a\right)^3}{12}  \displaystyle f^{(2)}(\epsilon)
 \]
@@ -27,6 +27,11 @@ Perteneciendo $\epsilon$ al intervalo entre a y b.
 
 \section{Regla del Trapecio compuesta}
 \label{2:sec:2}
+
+
+
+
+
 \begin{figure}[!th]
 \begin{center}
 \includegraphics[width=0.25\textwidth]{images/Regla-Trap-compuesta}
@@ -35,22 +40,20 @@ Perteneciendo $\epsilon$ al intervalo entre a y b.
 \parindent=0.5cm
 \raggedright
 Una manera de mejorar la exactitud es utilizar la regla del trapecio compuesta, es decir, dividir
-el intervalo de integraci髇 entre a y b en n subintervalos, cada uno de ancho
+el intervalo de integraci贸n entre a y b en n subintervalos, cada uno de ancho
 \[
 \bigtriangleup{x}=\frac{b-a}{n}
 \]
-y aplicar el m閠odo a cada uno de ellos. Las ecuaciones resultantes son llamadas f髍mulas
-de integraci髇 de m鷏tiple aplicaci髇 o compuestas.
+y aplicar el m茅todo a cada uno de ellos. Las ecuaciones resultantes son llamadas f贸rmulas
+de integraci贸n de m煤ltiple aplicaci贸n o compuestas.
 \[
 \int_{a}^{b} f(x)dx \sim\frac{h}{2}\left[f(a) + f(a+h) + f(a+2h) + ... + f(b)\right]
 \]
-Donde 
+D贸nde 
 \[
 h=\frac{b-a}{n} 
 \]
-La expresion anterior se puede escribir de la siguiente manera:
+La expresi贸n anterior se puede escribir de la siguiente manera:
 \[
 \int_{a}^{b} f(x)dx \sim\frac{b-a}{n}\left(\frac{f(a)+f(b)}{2} + \sum_{k=1}^{n-1} a+k\frac{b-a}{n} \right)
 \]
-
-

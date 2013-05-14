@@ -1,17 +1,19 @@
-
 #! /usr/bin/python
 import random,sys
 from math import *
 import timeit
 
 def f(x) :
-  return 1/sqrt(2*pi)*exp(-(x**2)/2)
-  
-def simple(f,A,B) :
-  simple=(B-A)*(f(A)+f(B))/2
+  simple=1/sqrt(2*pi)*exp(-x**2/2)
+  return simple
+
+def trapecio_simple(f,A,B) :
+  a=f(A)
+  b=f(B)
+  simple=(B-A)*((a+b)/2)
   return simple
   
-def compuesta(f,A,B) :
+def trapecio_compuesto(f,A,B,n) :
   h=(B-A)/n
   k=1
   valor=0
@@ -23,25 +25,27 @@ def compuesta(f,A,B) :
   compuesta=((B-A)/n)*( (f(A) + f(B))/2 + valor)
   return compuesta
   
-def Tiempo1(simple,C):
-   t= timeit.Timer('simple', setup = 'from math import *; A=-1.0; B=1.0')
+def Tiempo1(trapecio_simple):
+   t= timeit.Timer('trapecio_simple')
    x=t.timeit(10000000)
    return x
    
-def Tiempo2(compuesta,C):
-   t2= timeit.Timer('compuesta', setup = 'from math import *; A=-1.0; B=1.0m')
+def Tiempo2(trapecio_compuesto):
+   t2= timeit.Timer('trapecio_compuesto')
    x2=t2.timeit(10000000)
    return x2
 
 if __name__=='__main__': 
 
   
-    if len(sys.argv) == 3 :
+    if len(sys.argv) == 5 :
         modulo=(sys.argv[0])
-        n=int(sys.argv[1]) #numero de divisiones
-        C=int(sys.argv[2]) #numero de test
-        val=Tiempo1(simple,C)
-        val2=Tiempo2(compuesta,C)
+        A=int(sys.argv[1])
+        B=int(sys.argv[2])
+        n=int(sys.argv[3]) #numero de divisiones
+        C=int(sys.argv[4]) #numero de test
+        val=Tiempo1(trapecio_simple)
+        val2=Tiempo2(trapecio_compuesto)
         i=1
         while i< C:
 	  
@@ -56,7 +60,6 @@ if __name__=='__main__':
 	 
     else :
         print 'Has introducido unos argumentos incorrectos, introduce:'
-        print tiempo.py , num_test 
+        print modulo.py, A, B, n, C 
         
-	 
-	 
+        

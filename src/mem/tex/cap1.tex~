@@ -1,30 +1,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% CapÌtulo 1: MotivaciÛn y Objetivos 
+% Cap√≠tulo 1: Motivaci√≥n y Objetivos 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%Los objetivos le dan al lector las razones por las que se realizÛ el
-%proyecto o trabajo de investigaciÛn.
+%Los objetivos le dan al lector las razones por las que se realiz√≥ el
+%proyecto o trabajo de investigaci√≥n.
 
 %---------------------------------------------------------------------------------
-\section{Primera Secci\'on}
+\section{Primera Secci√≥on}
 \label{1:sec:1}
 \parindent=0.5cm
 \raggedright
 El objetivo de este trabajo es realizar una integral mediante la Regla del Trapecio. La Regla
 del Trapecio resulta de mucha utilidad dado que es una forma muy sencilla de aproximar el valor de
-la integral definida entre dos puntos a y b.GeomÈtricamente, es equivalente a aproximar el ·rea del 
-trapezoide bajo la lÌnea recta que conecta f(a) y f(b).
+la integral definida entre dos puntos a y b. Geom√©tricamente, es equivalente a aproximar el √°rea del 
+trapezoide bajo la l√≠nea recta que conecta f(a) y f(b).
+
+
+
+
 \begin{center}
-\includegraphics[width=0.25\textwidth]{images/Regla-Trapecio}
+\includegraphics[width=0.25\textwidth]{images/Regla-Trapecio.eps}
 \end{center}
 
 %---------------------------------------------------------------------------------
-\section{Segunda Secci\'on}
+\section{Segunda Secci√≥n}
 \label{1:sec:2}
 \parindent=0.5cm
 \raggedright
-Para la realizaciÛn de este trabajo emplearemos la funci\'on:
-\[
-  f(x)=\frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}
-\]
+Para la realizaci√≥n de este trabajo emplearemos la funci√≥n:
+$f(x)=\frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}$
 comprendida en el itervalo [-1,1]
