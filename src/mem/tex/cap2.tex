@@ -27,6 +27,11 @@ Perteneciendo $\epsilon$ al intervalo entre a y b.
 
 \section{Regla del Trapecio compuesta}
 \label{2:sec:2}
+
+
+
+
+
 \begin{figure}[!th]
 \begin{center}
 \includegraphics[width=0.25\textwidth]{images/Regla-Trap-compuesta}
@@ -35,7 +40,7 @@ Perteneciendo $\epsilon$ al intervalo entre a y b.
 \parindent=0.5cm
 \raggedright
 Una manera de mejorar la exactitud es utilizar la regla del trapecio compuesta, es decir, dividir
-el intervalo de integraci�n entre a y b en n subintervalos, cada uno de ancho
+el intervalo de integración entre a y b en n subintervalos, cada uno de ancho
 \[
 \bigtriangleup{x}=\frac{b-a}{n}
 \]
@@ -44,13 +49,11 @@ de integración de múltiple aplicación o compuestas.
 \[
 \int_{a}^{b} f(x)dx \sim\frac{h}{2}\left[f(a) + f(a+h) + f(a+2h) + ... + f(b)\right]
 \]
-Donde 
+Dónde 
 \[
 h=\frac{b-a}{n} 
 \]
-La expresion anterior se puede escribir de la siguiente manera:
+La expresión anterior se puede escribir de la siguiente manera:
 \[
 \int_{a}^{b} f(x)dx \sim\frac{b-a}{n}\left(\frac{f(a)+f(b)}{2} + \sum_{k=1}^{n-1} a+k\frac{b-a}{n} \right)
 \]
-
-
