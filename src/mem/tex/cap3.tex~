@@ -1,28 +1,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Cap韙ulo 3: Procedimiento experimental 
+% Cap铆tulo 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%Este cap韙ulo ha de contar con seccciones para la descripci髇 de los experimentos 
-%y del material.
-
-%Tambi閚 debe haber una secci髇 para los resultados obtenidos y una 鷏tima de 
-%an醠isis de los resultados.
-
-%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Descripci\'on de los experimentos}
+\section{Descripci贸n de los experimentos}
 \label{3:sec:1}
 \parindent=1cm
 \raggedright
-El experimento llevado a cabo es la realizaci髇 de la integral definida y la aproximaci髇
-mediante la regla del trapecio y la regla del trapecio compuesta. Adem醩 de conocer el error
-de truncamiento que existe. Veamos\\
+\subsection{Experimento}
+En el experimento llevado a cabo vamos a comparar los resultados obtenidos por la realizaci贸n de la integral definida y la aproximaci锟絥
+mediante la regla del trapecio simple y la regla del trapecio compuesta. Veamos\\
 Integral definida 
 \[
 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx0.682689 
 \]
 Regla del Trapecio
 \[
-\int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)a\right)\frac{f(-1)+f(1)}{2}
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
 \]
 Regla del Trapecio compuesta con n=4
 \[
@@ -32,18 +25,14 @@ h=\frac{1-(-1)}{4} =\frac{1}{2}
 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]
 \]
 
-Tomando $\Etsilon$ con un valor de   , el error de truncamiento es:
-
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Descripci\'on del material}
+\section{Descripci贸n del material}
 \label{3:sec:2}
 \parindent=1cm
 \raggedright
-El material que hemos empleado para la realizaci髇 de este proyecto es el lenguaje de
-programaci髇 Python, para la creaci髇 de los programas que verifican este m閠odo de integraci髇, 
-y el sistema de composici髇 de textos \LaTeX para el dise駉 del proyecto.
-
+El material que hemos empleado para la realizaci贸n de este proyecto es el lenguaje de
+programaci贸n Python, para la creaci贸n de los programas que verifican este m茅todo de integraci贸n, 
+y el sistema de composici贸n de textos \LaTeX para el dise帽o del proyecto.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
@@ -64,20 +53,19 @@ Regla del Trapecio compuesta con n=4
 \int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx=0.882385
 \]
 %------------------------------------------------------------------------------
-%\begin{figure}[!th]
-%\begin{center}
-%\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-%\caption{Ejemplo de figura}
-%\label{fig:1}
-%\end{center}
-%\end{figure}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{images/Regla-Trap-compuesta.eps}
+\label{fig:1}
+\end{center}
+\end{figure}
 %------------------------------------------------------------------------------
 Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta
 \input{tables/table.tex}
 %------------------------------------------------------------------------------
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{An\'alisis de los resultados}
+\section{An谩lisis de los resultados}
 \label{3:sec:4}
 \parindent=1cm
 \raggedright

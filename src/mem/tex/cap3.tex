@@ -2,20 +2,28 @@
 % Capítulo 3: Procedimiento experimental 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%Este capítulo ha de contar con seccciones para la descripción de los experimentos 
+%y del material.
+
+%También debe haber una sección para los resultados obtenidos y una última de 
+%análisis de los resultados.
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
 \parindent=1cm
 \raggedright
-\subsection{Experimento}
-En el experimento llevado a cabo vamos a comparar los resultados obtenidos por la realización de la integral definida y la aproximaci�n
-mediante la regla del trapecio simple y la regla del trapecio compuesta. Veamos\\
+\subsection{Primer experimento}
+El experimento llevado a cabo es la realización de la integral definida, la aproximación
+mediante la regla del trapecio y la regla del trapecio compuesta. Compararemos los resultados para ver si se obtiene una aproximacón fiable.
+ Veamos\\
 Integral definida 
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx0.682689 
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx
 \]
 Regla del Trapecio
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
+\int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
 \]
 Regla del Trapecio compuesta con n=4
 \[
@@ -24,6 +32,20 @@ h=\frac{1-(-1)}{4} =\frac{1}{2}
 \[
 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]
 \]
+
+
+\subsection{Segundo experimento}
+En este experimento vamos a ver los distintos errores que puede tomar el teorema para los posibles resultados de $\epsilon$.
+Recordamos que $\epsilon$ pertenecerá al intervalo [a,b], en este caso, el intervalo [-1,1].
+Por tanto,
+
+\[
+-\frac{\left(b-a\right)^3}{12}  \displaystyle f^{(2)}(\epsilon)
+\]
+
+para todo $\epsilon$ perteneciente al intervalo [-1,1].
+
+
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
@@ -34,11 +56,13 @@ El material que hemos empleado para la realización de este proyecto es el lengu
 programación Python, para la creación de los programas que verifican este método de integración, 
 y el sistema de composición de textos \LaTeX para el diseño del proyecto.
 
+
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
 \label{3:sec:3}
 \parindent=1cm
 \raggedright
+\subsection{Resultados del primer experimento}
 Los resultados obtenidos son:
 Integral definida 
 \[
@@ -50,15 +74,18 @@ Regla del Trapecio
 \]
 Regla del Trapecio compuesta con n=4
 \[
-\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx=0.882385
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx0.882385
 \]
+\subsection{resultados del segundo experimento}
+
 %------------------------------------------------------------------------------
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.75\textwidth]{images/Regla-Trap-compuesta.eps}
-\label{fig:1}
-\end{center}
-\end{figure}
+%\begin{figure}[!th]
+%\begin{center}
+%\includegraphics[width=0.75\textwidth]{images/figura1.eps}
+%\caption{Ejemplo de figura}
+%\label{fig:1}
+%\end{center}
+%\end{figure}
 %------------------------------------------------------------------------------
 Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta
 \input{tables/table.tex}
@@ -70,4 +97,3 @@ Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y l
 \parindent=1cm
 \raggedright
  
-
