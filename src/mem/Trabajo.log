@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  13 MAY 2013 16:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  14 MAY 2013 16:18
 entering extended mode
  %&-line parsing enabled.
 **Trabajo.tex
@@ -417,37 +417,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Cap\'{\i }tulo 1.
 (./tex/cap1.tex
 
-! Package inputenc Error: Unicode char \u8:étr not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...al definida entre dos puntos a y b.Geométr
-                                                  icamente, es equivalente a...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:áre not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 ...camente, es equivalente a aproximar el áre
-                                                  a del
-? 
-
-! Package inputenc Error: Unicode char \u8:íne not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 trapezoide bajo la líne
-                            a recta que conecta f(a) y f(b).
-? 
-
 ! LaTeX Error: Cannot determine size of graphic in images/Regla-Trapecio.eps (n
 o BoundingBox).
 
@@ -455,21 +424,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...dth=0.25\textwidth]{images/Regla-Trapecio}
+l.18 ...0.25\textwidth]{images/Regla-Trapecio.eps}
                                                   
 ? 
 File: images/Regla-Trapecio.eps Graphic file (type eps)
 <images/Regla-Trapecio.eps>
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 Para la realización de
-                            este trabajo emplearemos la funci\'on:
-? 
 ! Undefined control sequence.
 l.28   f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
                                             {e}^{\frac{-x^2}{2}}
@@ -480,119 +439,15 @@ l.28   f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
 Cap\'{\i }tulo 2.
 (./tex/cap2.tex
 
-! Package inputenc Error: Unicode char \u8:éto not set up for use with LaTeX.
+! Package inputenc Error: Unicode char \u8:ï¿½ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 Este méto
-              do integración numérica calcula aproximadamente el valor de la...
+l.17 a travï¿½
+              s de los puntos(a,f(a)) y (b,f(b)). La integral de esta es igu...
 
-? 
-
-! Package inputenc Error: Unicode char \u8:ónnu not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 Este método integración nu
-                               mérica calcula aproximadamente el valor de la...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:éri not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 Este método integración numéri
-                                   ca calcula aproximadamente el valor de la...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ónli not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...a integral de f(x) por el de la función li
-                                                  neal que pasa
-? 
-
-! Package inputenc Error: Unicode char \u8:ésd not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 a través d
-               e los puntos(a,f(a)) y (b,f(b)). La integral de ésta es igual...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ést not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...tos(a,f(a)) y (b,f(b)). La integral de ést
-                                                  a es igual al área del
-? 
-
-! Package inputenc Error: Unicode char \u8:áre not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...f(b)). La integral de ésta es igual al áre
-                                                  a del
-? 
-
-! Package inputenc Error: Unicode char \u8:áfi not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 trapecio bajo la gráfi
-                           ca de la función lineal. Se sigue que:
-? 
-
-! Package inputenc Error: Unicode char \u8:ónli not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 trapecio bajo la gráfica de la función li
-                                              neal. Se sigue que:
-? 
-
-! Package inputenc Error: Unicode char \u8:ónpa not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 Una estimación pa
-                      ra el error de truncamiento local de una sola aplicaci...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ...uncamiento local de una sola aplicación de
-                                                   la regla trapezoidal es:
 ? 
 
 ! LaTeX Error: Cannot determine size of graphic in images/Regla-Trap-compuesta.
@@ -608,201 +463,32 @@ l.32 ...25\textwidth]{images/Regla-Trap-compuesta}
 File: images/Regla-Trap-compuesta.eps Graphic file (type eps)
 <images/Regla-Trap-compuesta.eps>
 
-! Package inputenc Error: Unicode char \u8:ónen not set up for use with LaTeX.
+! Package inputenc Error: Unicode char \u8:ï¿½ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 el intervalo de integración en
-                                   tre a y b en n subintervalos, cada uno de...
+l.38 el intervalo de integraciï¿½
+                                 n entre a y b en n subintervalos, cada uno ...
 
-? 
-
-! Package inputenc Error: Unicode char \u8:éto not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 y aplicar el méto
-                      do a cada uno de ellos. Las ecuaciones resultantes son...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:órmu not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ... ecuaciones resultantes son llamadas fórmu
-                                                  las
-? 
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 de integración de
-                       múltiple aplicación o compuestas.
-? 
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 de integración de mú
-                         ltiple aplicación o compuestas.
-? 
-
-! Package inputenc Error: Unicode char \u8:ónoc not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 de integración de múltiple aplicación o c
-                                              ompuestas.
 ? 
 [2
 
 ]) [3]
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...imento llevado a cabo es la realización de
-                                                   la integral definida y la...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ónme not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 me
-       diante la regla del trapecio y la regla del trapecio compuesta. Ademá...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ásd not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ... la regla del trapecio compuesta. Además d
-                                                  e conocer el error
+! Undefined control sequence.
+l.22 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
+                                                  {e}^{\frac{-x^2}{2}}dx
 ? 
 ! Undefined control sequence.
-l.21 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
-                                                  {e}^{\frac{-x^2}{2}}dx\app...
-
-? 
-! Undefined control sequence.
-l.25 \int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text
+l.26 \int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text
                                                  {e}^{\frac{-x^2}{2}}dx\appr...
 
 ? 
 ! Undefined control sequence.
-l.32 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
-                                                  {e}^{\frac{-x^2}{2}}dx\app...
-
-? 
-! Undefined control sequence.
-<recently read> \Etsilon 
-                         
-l.35 Tomando $\Etsilon
-                      $ con un valor de   , el error de truncamiento es:
-? 
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.43 ... que hemos empleado para la realización de
-                                                   este proyecto es el lengu...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ónPy not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 programación Py
-                    thon, para la creación de los programas que verifican es...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 programación Python, para la creación de
-                                              los programas que verifican es...
-
-? 
-
-! Package inputenc Error: Unicode char \u8:éto not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...n de los programas que verifican este méto
-                                                  do de integración,
-? 
-
-! Package inputenc Error: Unicode char \u8:ón,y not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 y
-       el sistema de composición de textos \LaTeX para el diseño del proyecto.
-? 
-
-! Package inputenc Error: Unicode char \u8:ónde not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 y el sistema de composición de
-                                    textos \LaTeX para el diseño del proyecto.
-? 
-
-! Package inputenc Error: Unicode char \u8:ñode not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...osición de textos \LaTeX para el diseño de
-                                                  l proyecto.
-? 
-! Undefined control sequence.
-l.56 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.33 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
@@ -810,38 +496,56 @@ l.56 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
 
 ]
 ! Undefined control sequence.
-l.60 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.69 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
 ! Undefined control sequence.
-l.64 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.73 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
-(./tables/table.tex)) [5]
+! Undefined control sequence.
+l.77 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+                                                  {e}^{\frac{-x^2}{2}}dx\app...
+
+? 
+File: images/imgraf.eps Graphic file (type eps)
+<images/imgraf.eps> (./tables/table.tex
+Overfull \hbox (106.69783pt too wide) in paragraph at lines 89--32
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+[7]
 Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [6
+(./tex/cap4.tex) [8
 
 ]
 Ap\'{e}ndice A.
-(./tex/apendice1.tex) [7
+(./tex/apendice1.tex) [9
 
 
 ]
 Ap\'{e}ndice B.
 (./tex/apendice2.tex)
 No file Trabajo.bbl.
-[8
+[10
 
 ] (./Trabajo.aux) ) 
 Here is how much of TeX's memory you used:
- 1899 strings out of 495062
- 22201 string characters out of 1182644
- 77282 words of memory out of 3000000
- 5025 multiletter control sequences out of 15000+50000
- 12532 words of font info for 46 fonts, out of 3000000 for 9000
+ 1885 strings out of 495062
+ 22141 string characters out of 1182644
+ 78282 words of memory out of 3000000
+ 5010 multiletter control sequences out of 15000+50000
+ 13137 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,9n,27p,936b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,9n,27p,940b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Trabajo.dvi (15 pages, 16432 bytes).
+Output written on Trabajo.dvi (17 pages, 18916 bytes).

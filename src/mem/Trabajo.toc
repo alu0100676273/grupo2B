@@ -1,20 +1,24 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Motivaci\IeC {\'o}n y objetivos}{1}
-\contentsline {section}{\numberline {1.1}Primera Secci\'on}{1}
-\contentsline {section}{\numberline {1.2}Segunda Secci\'on}{1}
+\contentsline {section}{\numberline {1.1}Primera Secci\IeC {\'o}on}{1}
+\contentsline {section}{\numberline {1.2}Segunda Secci\IeC {\'o}n}{1}
 \contentsline {chapter}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{2}
 \contentsline {section}{\numberline {2.1}Regla del Trapecio}{2}
 \contentsline {section}{\numberline {2.2}Regla del Trapecio compuesta}{2}
 \contentsline {chapter}{\numberline {3}Procedimiento experimental}{4}
-\contentsline {section}{\numberline {3.1}Descripci\'on de los experimentos}{4}
-\contentsline {section}{\numberline {3.2}Descripci\'on del material}{4}
+\contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{4}
+\contentsline {subsection}{\numberline {3.1.1}Primer experimento}{4}
+\contentsline {subsection}{\numberline {3.1.2}Segundo experimento}{4}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del material}{5}
 \contentsline {section}{\numberline {3.3}Resultados obtenidos}{5}
-\contentsline {section}{\numberline {3.4}An\'alisis de los resultados}{5}
-\contentsline {chapter}{\numberline {4}Conclusiones}{6}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{7}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{7}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{7}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{8}
-\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{8}
-\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{8}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{8}
+\contentsline {subsection}{\numberline {3.3.1}Resultados del primer experimento}{5}
+\contentsline {subsection}{\numberline {3.3.2}resultados del segundo experimento}{5}
+\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de los resultados}{7}
+\contentsline {chapter}{\numberline {4}Conclusiones}{8}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{9}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{9}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{9}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{10}
+\contentsline {section}{\numberline {B.1}Otro apendice: Seccion 1}{10}
+\contentsline {section}{\numberline {B.2}Otro apendice: Seccion 2}{10}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{10}
