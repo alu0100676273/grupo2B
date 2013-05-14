@@ -14,7 +14,7 @@
 \parindent=1cm
 \raggedright
 \subsection{Primer experimento}
-En el experimento llevado a cabo vamos a comparar los resultados obtenidos por la realizaci�n de la integral definida y la aproximaci�n
+En el experimento llevado a cabo vamos a comparar los resultados obtenidos por la realización de la integral definida y la aproximaci�n
 mediante la regla del trapecio simple y la regla del trapecio compuesta. Veamos\\
 Integral definida 
 \[
@@ -22,7 +22,7 @@ Integral definida
 \]
 Regla del Trapecio
 \[
-\int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
+\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
 \]
 Regla del Trapecio compuesta con n=4
 \[
@@ -32,18 +32,14 @@ h=\frac{1-(-1)}{4} =\frac{1}{2}
 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]
 \]
 
-Tomando $\epsilon$ con un valor de   , el error de truncamiento es:
-
-
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripci\'on del material}
 \label{3:sec:2}
 \parindent=1cm
 \raggedright
-El material que hemos empleado para la realizaci�n de este proyecto es el lenguaje de
-programaci�n Python, para la creaci�n de los programas que verifican este m�todo de integraci�n, 
-y el sistema de composici�n de textos \LaTeX para el dise�o del proyecto.
-
+El material que hemos empleado para la realización de este proyecto es el lenguaje de
+programación Python, para la creación de los programas que verifican este método de integración, 
+y el sistema de composición de textos \LaTeX para el diseño del proyecto.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
@@ -64,13 +60,13 @@ Regla del Trapecio compuesta con n=4
 \int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx=0.882385
 \]
 %------------------------------------------------------------------------------
-%\begin{figure}[!th]
-%\begin{center}
-%\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-%\caption{Ejemplo de figura}
-%\label{fig:1}
-%\end{center}
-%\end{figure}
+\begin{figure}[!th]
+\begin{center}
+\includegraphics[width=0.75\textwidth]{images/Regla-Trap-compuesta.eps}
+\caption{Ejemplo de figura}
+\label{fig:1}
+\end{center}
+\end{figure}
 %------------------------------------------------------------------------------
 Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta
 \input{tables/table.tex}
