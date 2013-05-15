@@ -19,18 +19,22 @@ mediante la regla del trapecio y la regla del trapecio compuesta. Compararemos l
  Veamos\\
 Integral definida 
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx
 \]
 Regla del Trapecio
 \[
-\int_{-1}^{} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
+\int_{-1}^{} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left(1-(-1)\right)\frac{f(-1)+f(1)}{2}
 \]
-Regla del Trapecio compuesta con n=4
+En esta gráfica vemos la función original y el área que va a ser evaluada por la regla del trapecio simple, que coincide con el rectángulo de vértices (-1,0), (-1,0.24197), (1,0.24917)
+ y (1,0), habiendo calculado f(1) = f(-1) = 0.24197 .
+
+\includegraphics[width=1.15\textwidth]{images/trasim}
+ Regla del Trapecio compuesta con n=4
 \[
 h=\frac{1-(-1)}{4} =\frac{1}{2} 
 \]
 \[
-\int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac{-1}{2}) + f(0) + f(\frac{1}{2}) + f(1)\right]
 \]
 
 
@@ -40,10 +44,24 @@ Recordamos que $\epsilon$ pertenecerá al intervalo [a,b], en este caso, el inte
 Por tanto,
 
 \[
--\frac{\left(b-a\right)^3}{12}  \displaystyle f^{(2)}(\epsilon)
+-\frac{\left(1-(-1)\right)^3}{12}  \displaystyle f^{(2)}(\epsilon)
+
+\forall \epsilon \owns [-1,1]
 \]
 
-para todo $\epsilon$ perteneciente al intervalo [-1,1].
+
+Efectuando la derivada segunda que es necesaria, la ecuación queda:
+\[
+-\frac{2}{3\sqrt(2\pi)} \quad\text{e}^{\frac{\epsilon^2}{-2}}  \displaystyle  (1-\epsilon^2)
+
+\forall \epsilon \owns [-1,1]
+\]
+
+
+
+\subsection{Tercer experimento}
+En este experimento se comparará la eficiencia del tiempo que se tarda en hallar dos resultados de la integral, en un caso
+ por la integración de trapecio simple y en el otro caso por la integración de trapecio compuesta.
 
 
 
@@ -53,8 +71,9 @@ para todo $\epsilon$ perteneciente al intervalo [-1,1].
 \parindent=0.2cm
 \raggedright
 El material que hemos empleado para la realización de este proyecto es el lenguaje de
-programación Python, para la creación de los programas que verifican este método de integración, 
-y el sistema de composición de textos \LaTeX para el diseño del proyecto.
+programación Python(versión 2.7.3.), para la creación de los programas que verifican este método de integración, 
+y el sistema de composición de textos \LaTeX para el diseño del proyecto, todo ello efectuado en el sistema operativo
+Bardinux (Linux).
 
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -74,9 +93,9 @@ Regla del Trapecio
 \]
 Regla del Trapecio compuesta con n=4
 \[
-\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx0.882385
+\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text{e}^{\frac{-x^2}{2}}dx\approx\left[f(-1) + f(\frac-{1}{2}) + f(0) + f(\frac{1}{2} + f(1)\right]\approx0.672435
 \]
-\subsection{resultados del segundo experimento}
+\subsection{Resultados del segundo experimento}
 Tomando varios valores de $\epsilon$,obtenemos la siguinte gráfica:
 
 
@@ -87,6 +106,12 @@ Tomando varios valores de $\epsilon$,obtenemos la siguinte gráfica:
 
 
 \includegraphics[width=1.25\textwidth]{images/imgraf}
+
+Algunos valores representativos son:
+
+$\epsilon$=1$\Rightarrow$ Error=0
+
+$\epsilon$=0$\Rightarrow$ Error=0.26596
 %------------------------------------------------------------
 %\begin{figure}[!th]
 %\begin{center}
@@ -105,4 +130,19 @@ Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y l
 \label{3:sec:4}
 \parindent=1cm
 \raggedright
- 
+ En el primer experimento, en el cual comparábamos los distintos resultados según usáramos los métodos de integración,
+ observamos que la integral definida tiene como resultado 0.682689; la integración por la regla del trapecio simple, 0.483941;
+ y la integración por la regla del trapecio compuesta, 0.672435.
+Así pues, obtenemos un error de 0.1978748 en la regla del trapecio simple y un error de 0.010254 en la regla del trapecio compuesta.
+Podemos ver claramente que la regla del trapecio compuesta es más exacta que la regla del trapecio simple, si bien sigue sin ser del todo exacta.
+Esto tiene sentido con lo llevado a cabo en el segundo experimento, ya que el error máximo encontrado, según el error que se nos daba en la regla del trapecio,
+es de 0.26596. Analizando dicho experimento, vemos un patrón que sigue la función del error, que varía según $\epsilon$.
+Si derivamos esta función e igualamos a cero, obtendremos los valores máximos y mínimos de error. Esto es,
+
+\[
+\quad\text{e}^{\frac{-\epsilon^2}{2}} \displaystyle (1-\epsilon) \displaystyle \epsilon = 0
+\]
+
+Se ve fácilmente que ni el primer múltiplo ni el segundo tiene solución si se igualan a cero, así que la única solución a esa ecuación es $\epsilon$ = 0.
+Su correspondiente error, que será el máximo, es de 0.26596.
+

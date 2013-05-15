@@ -25,18 +25,7 @@ Una estimación para el error de truncamiento local de una sola aplicación de l
 \]
 Perteneciendo $\epsilon$ al intervalo entre a y b.
 
-\section{Regla del Trapecio compuesta}
-\label{2:sec:2}
 
-
-
-
-
-\begin{figure}[!th]
-\begin{center}
-\includegraphics[width=0.25\textwidth]{images/Regla-Trap-compuesta}
-\end{center}
-\end{figure}
 \parindent=0.5cm
 \raggedright
 Una manera de mejorar la exactitud es utilizar la regla del trapecio compuesta, es decir, dividir
@@ -49,7 +38,7 @@ de integración de múltiple aplicación o compuestas.
 \[
 \int_{a}^{b} f(x)dx \sim\frac{h}{2}\left[f(a) + f(a+h) + f(a+2h) + ... + f(b)\right]
 \]
-Dónde 
+Donde 
 \[
 h=\frac{b-a}{n} 
 \]
