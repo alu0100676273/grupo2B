@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  14 MAY 2013 16:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  14 MAY 2013 17:25
 entering extended mode
  %&-line parsing enabled.
 **Trabajo.tex
@@ -416,22 +416,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Cap\'{\i }tulo 1.
 (./tex/cap1.tex
-
-! LaTeX Error: Cannot determine size of graphic in images/Regla-Trapecio.eps (n
-o BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ...0.25\textwidth]{images/Regla-Trapecio.eps}
-                                                  
-? 
-File: images/Regla-Trapecio.eps Graphic file (type eps)
-<images/Regla-Trapecio.eps>
 ! Undefined control sequence.
-l.28   f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
-                                            {e}^{\frac{-x^2}{2}}
+l.24 $f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
+                                           {e}^{\frac{-x^2}{2}}$
 ? 
 ) [1
 
@@ -449,33 +436,9 @@ l.17 a trav�
               s de los puntos(a,f(a)) y (b,f(b)). La integral de esta es igu...
 
 ? 
+) [2
 
-! LaTeX Error: Cannot determine size of graphic in images/Regla-Trap-compuesta.
-eps (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...25\textwidth]{images/Regla-Trap-compuesta}
-                                                  
-? 
-File: images/Regla-Trap-compuesta.eps Graphic file (type eps)
-<images/Regla-Trap-compuesta.eps>
-
-! Package inputenc Error: Unicode char \u8:� not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 el intervalo de integraci�
-                                 n entre a y b en n subintervalos, cada uno ...
-
-? 
-[2
-
-]) [3]
+]
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
 ! Undefined control sequence.
@@ -492,7 +455,7 @@ l.33 \int_{-1}^{1} \frac{1}{sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
-[4
+[3
 
 ]
 ! Undefined control sequence.
@@ -519,18 +482,19 @@ Overfull \hbox (106.69783pt too wide) in paragraph at lines 89--32
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]))
+ [4]))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7]
+ [5]
+[6]
 Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [8
+(./tex/cap4.tex) [7
+
+] [8
 
 ]
 Ap\'{e}ndice A.
 (./tex/apendice1.tex) [9
-
 
 ]
 Ap\'{e}ndice B.
@@ -538,14 +502,43 @@ Ap\'{e}ndice B.
 No file Trabajo.bbl.
 [10
 
-] (./Trabajo.aux) ) 
+] (./Trabajo.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \penalty 
+l.62 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{10}}
+                                                  
+? 
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.62 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{10}}
+                                                  
+? 
+! Missing \endcsname inserted.
+<to be read again> 
+                   \penalty 
+l.64 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{10}}
+                                                  
+? 
+! Extra \endcsname.
+\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.64 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{10}}
+                                                  
+? 
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1885 strings out of 495062
- 22141 string characters out of 1182644
+ 1882 strings out of 495062
+ 22047 string characters out of 1182644
  78282 words of memory out of 3000000
- 5010 multiletter control sequences out of 15000+50000
+ 5009 multiletter control sequences out of 15000+50000
  13137 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,9n,27p,940b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,9n,27p,212b,247s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Trabajo.dvi (17 pages, 18916 bytes).
+Output written on Trabajo.dvi (17 pages, 18696 bytes).
