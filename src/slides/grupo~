@@ -1,0 +1,184 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usecolortheme[RGB={205,173,0}]{structure}
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+\usetheme{Antibes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Regla del trapecio}
+\author[Grupo 2B]{Samanta Belén Lara Óscar Méndez Nuria Cecilia Martín}
+\date[13-05-13]{13 de mayo de 2013}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{boxes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+\begin{document}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+\frametitle{Integración}
+
+  \titlepage
+
+  \begin{scriptsize}
+    \begin{center}
+     Técnicas Experimentales \\
+     Universidad de La Laguna
+    \end{center}
+  \end{scriptsize}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+ 
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\section{Introducción}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+\frametitle{Introducción}
+
+\begin{definicion}
+La regla del trapecio es un método de integración numérica, es decir, un método para 
+calcular aproximadamente el valor de la integral definida.La regla se basa en aproximar el valor de la 
+integral de f(x) por el de la función lineal que pasa a través de los puntos (a, f(a)) y (b, f(b)). La 
+integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal.
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Regla del trapecio}
+Aproximación de la integral definida por el de la función lineal que pasa a través de los puntos (a, f(a)) y (b, f(b)).
+La integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal. Se sigue que:
+$\int_{a}^{b}f(x) , dx \sim (b-a)* \frac{f(a)+ f(b)}{2}$
+y donde el término error corresponde a:
+$-\frac{(b-a)^3}{12}*f(2)(E)$
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+ 
+\begin{frame}
+
+\frametitle{Regla del trapecio compuesta}
+La regla del trapecio compuesta o regla de los trapecios es una forma de aproximar una integral definida utilizando n trapecios.
+ En la formulación de este método se supone que f es continua y positiva en el intervalo [a,b]. De tal modo
+ la integral definida $\int_a^b f(x)\, dx $ representa el área de la región delimitada por la gráfica de f y el eje x, desde x=a hasta x=b. 
+Primero se divide el intervalo [a,b] en n subintervalos, cada uno de ancho $\Delta x=(b-a)/n$
+
+Después de realizar todo el proceso matemático se llega a la siguiente fórmula:
+
+   $ \int_a^b f(x)\, dx \sim \frac{h}{2} [f(a)+2f(a+h)+2f(a+2h)+...+f(b)]$
+
+Donde $\textstyle h= \frac{b-a}{n}$ y n es el número de divisiones.
+
+La expresión anterior también se puede escribir como:
+
+    $\int_{a}^{b} f(x) dx \sim \frac{b-a}{n} \left( \frac{f(a) + f(b)}{2} + \sum_{k=1}^{n-1} f\left(a + k \frac{b-a}{n}\right) \right)$ 
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\section{Experimentos}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\subsection{Fórmulas Matemáticas}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+ \begin{block}{Ejemplo}
+  
+  \begin{itemize}
+   \item<1-> Función
+   
+    $ f(x)= \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , [-1,1]$
+   \pause
+
+   \item<2-> Integral definida
+   
+   $\int_{-1}^{1} \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , dx\ \sim 0.682689$
+   \pause
+
+   \item<3-> Regla del trapecio
+   
+   $\int_{-1}^{1} \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , dx\ \sim (1-(-1)) \frac{f(-1)+f(1)}{2} \sim 0.483941$
+   \pause
+  
+   \item<4-> Regla del trapecio compuesta, con n=4
+  
+   $h=\frac{1-(-1)}{4}= \frac{1}{2}$
+   $\int_{-1}^{1} \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , dx\ \sim [f(-1)+f(-\frac{1}{2})+f(0)+f(\frac{1}{2})+f(1)] \sim 0.882385$
+   
+  \end{itemize}
+ \end{block}
+
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\subsection{Tiempo y velocidad}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{frame}
+ \frametitle{Tiempo y velocidad}
+Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta.
+  
+ \begin{center}
+    \begin{figure}
+   \includegraphics[scale=.5, natwidth=640, natheight=480]{tabla.png}
+    \end{figure}
+ \end{center}
+
+\end{frame}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Error}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\subsection{Error}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Comprobación}
+Errores que puede tomar el teorema para los posibles valores de $\epsilon$
+Siendo $\epsilon$ un número perteneciente al intervalo [a,b]. En este caso el intervalo es [-1,1].Por tanto:
+$ \frac{-(b-a)^3}{12}f^(2)(\epsilon) para todo \epsilon perteneciente a [-1,1]$
+
+\begin{center}
+    \begin{figure}
+   \includegraphics[scale=.3, natwidth=640, natheight=480]{graf.png}
+    \end{figure}
+ \end{center}
+\end{frame}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Wikipedia]{Wikipedia: Regla del trapecio}
+    Regla del trapecio {\small $//http://es.wikipedia.org/wiki/Regla_del_trapecio$}
+
+    \beamertemplatebookbibitems
+    \bibitem[Wikipedia]{latex} 
+     Wikipedia {\small $http://www.http://es.wikipedia.org/wiki/LaTeX$}
+
+  \end{thebibliography}
+\end{frame}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+\end{document}
