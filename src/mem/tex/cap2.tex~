@@ -10,11 +10,10 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Regla del Trapecio}
 \label{2:sec:1}
-\parindent=0.5cm
-\raggedright
+
 Este método integración numérica calcula aproximadamente el valor de la integral definida. 
 Se aproxima el valor de la integral de f(x) por el de la función lineal que pasa 
-a trav�s de los puntos(a,f(a)) y (b,f(b)). La integral de esta es igual al área del 
+a través de los puntos(a,f(a)) y (b,f(b)). La integral de esta es igual al área del 
 trapecio bajo la gráfica de la función lineal. Se sigue que: 
 \[
 \int_{a}^{b} f(x)dx \approx\left(b-a\right)\frac{f(a)+f(b)}{2} 
@@ -26,8 +25,6 @@ Una estimación para el error de truncamiento local de una sola aplicación de l
 Perteneciendo $\epsilon$ al intervalo entre a y b.
 
 
-\parindent=0.5cm
-\raggedright
 Una manera de mejorar la exactitud es utilizar la regla del trapecio compuesta, es decir, dividir
 el intervalo de integración entre a y b en n subintervalos, cada uno de ancho
 \[

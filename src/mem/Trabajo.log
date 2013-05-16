@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  16 MAY 2013 12:57
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  16 MAY 2013 14:02
 entering extended mode
  %&-line parsing enabled.
 **Trabajo.tex
@@ -359,60 +359,7 @@ l.13
 \msafam=\mathgroup4
 \msbfam=\mathgroup5
 \eufmfam=\mathgroup6
-) (./Trabajo.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \penalty 
-l.64 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{14}}
-                                                  
-? 
-
-LaTeX Warning: Label `Ap\IeC {\'e}ndice2:label' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \penalty 
-l.64 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{14}}
-                                                  
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{14}}
-                                                  
-? 
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.64 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{14}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \penalty 
-l.66 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{14}}
-                                                  
-? 
-
-LaTeX Warning: Label `Ap\IeC {\'e}ndice2:label2' multiply defined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \penalty 
-l.66 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{14}}
-                                                  
-? 
-! Extra \endcsname.
-\@namedef ...xpandafter \def \csname #1\endcsname 
-                                                  
-l.66 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{14}}
-                                                  
-? 
-)
+) (./Trabajo.aux)
 \openout1 = `Trabajo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -428,7 +375,8 @@ LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 File: images/logotipo-secundario-ULL.eps Graphic file (type eps)
- <images/logotipo-secundario-ULL.eps>
+
+<images/logotipo-secundario-ULL.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -445,35 +393,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `Trabajo.toc'.
 
- [1
-
-] [2
-
-]
-(./Trabajo.lof)
-\tf@lof=\write4
-\openout4 = `Trabajo.lof'.
-
- [3
-
-] [4
-
-] (./Trabajo.lot)
-\tf@lot=\write5
-\openout5 = `Trabajo.lot'.
-
- [5
-
-] [6
+ [2
 
 ]
 Cap\'{\i }tulo 1.
 (./tex/cap1.tex
 ! Undefined control sequence.
-l.24 $f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
-                                           {e}^{\frac{-x^2}{2}}$
+l.23 f(x)=\frac{1}{\sqrt(2\pi)} \quad\text
+                                          {e}^{\frac{-x^2}{2}}
 ? 
 ) [1
+
+
+
 
 ]
 Cap\'{\i }tulo 2.
@@ -483,18 +415,18 @@ Cap\'{\i }tulo 2.
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
 ! Undefined control sequence.
-l.22 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.21 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx
 ? 
 ! Undefined control sequence.
-l.26 \int_{-1}^{} \frac{1}{\sqrt(2\pi)} \quad\text
+l.25 \int_{-1}^{} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
 File: images/trasim.eps Graphic file (type eps)
 <images/trasim.eps>
-Overfull \hbox (64.01608pt too wide) in paragraph at lines 31--32
-[][]  
+Overfull \hbox (78.24245pt too wide) in paragraph at lines 30--31
+[][] 
  []
 
 
@@ -508,103 +440,40 @@ Overfull \vbox (98.75679pt too high) has occurred while \output is active []
 
 [4]
 ! Undefined control sequence.
-l.38 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.37 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 
-     
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.49 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.50 \forall
-             \epsilon \owns [-1,1]
-? 
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 \]
-       
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.52 
-     
 ? 
 ! Undefined control sequence.
 l.56 -\frac{2}{3\sqrt(2\pi)} \quad\text
                                        {e}^{\frac{\epsilon^2}{-2}}  \display...
 
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 
-     
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.57 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 \forall
-             \epsilon \owns [-1,1]
-? 
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 \]
-       
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 
-     
-? 
 ! Undefined control sequence.
-l.91 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.90 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
 ! Undefined control sequence.
-l.95 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.94 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
 [5]
 ! Undefined control sequence.
-l.99 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
+l.98 ..._{-1}^{1} \frac{1}{\sqrt(2\pi)} \quad\text
                                                   {e}^{\frac{-x^2}{2}}dx\app...
 
 ? 
 File: images/imgraf.eps Graphic file (type eps)
-<images/imgraf.eps> (./tables/table.tex) [6]
+<images/imgraf.eps>
+Overfull \hbox (14.22636pt too wide) in paragraph at lines 110--112
+[][]
+ []
+
+(./tables/table.tex) [6]
 ! Undefined control sequence.
-l.156 \quad\text
+l.144 \quad\text
                 {e}^{\frac{-\epsilon^2}{2}} \displaystyle (1-\epsilon) \disp...
 
 ? 
@@ -643,49 +512,16 @@ Overfull \hbox (140.20207pt too wide) in paragraph at lines 127--127
  menor que la ejecucion de la regla del Trapecio compuesto'[] 
  []
 
-) [13]
-Ap\'{e}ndice B.
-(./tex/apendice2.tex)
-No file Trabajo.bbl.
-[14
-
-] (./Trabajo.aux
-! Missing \endcsname inserted.
-<to be read again> 
-                   \penalty 
-l.64 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{14}}
-                                                  
-? 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.64 ...label{Ap\IeC {\'e}ndice2:label}{{B.1}{14}}
-                                                  
-? 
-! Missing \endcsname inserted.
-<to be read again> 
-                   \penalty 
-l.66 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{14}}
-                                                  
-? 
-! Extra \endcsname.
-\@newl@bel ... \bbl@tempa \csname #1@#2\endcsname 
-                                                  \def \bbl@tempb {#3}\@safe...
-l.66 ...abel{Ap\IeC {\'e}ndice2:label2}{{B.2}{14}}
-                                                  
-? 
 )
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+No file Trabajo.bbl.
+[13] (./Trabajo.aux) ) 
 Here is how much of TeX's memory you used:
- 1880 strings out of 495062
- 22024 string characters out of 1182644
- 79282 words of memory out of 3000000
- 5006 multiletter control sequences out of 15000+50000
+ 1869 strings out of 495062
+ 21907 string characters out of 1182644
+ 78282 words of memory out of 3000000
+ 5004 multiletter control sequences out of 15000+50000
  13137 words of font info for 48 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,8n,27p,233b,364s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,233b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Trabajo.dvi (21 pages, 30316 bytes).
+Output written on Trabajo.dvi (15 pages, 28912 bytes).

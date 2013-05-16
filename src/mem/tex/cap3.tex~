@@ -11,8 +11,7 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción de los experimentos}
 \label{3:sec:1}
-\parindent=0.5cm
-\raggedright
+
 \subsection{Primer experimento}
 El experimento llevado a cabo es la realización de la integral definida, la aproximación
 mediante la regla del trapecio y la regla del trapecio compuesta. Compararemos los resultados para ver si se obtiene una aproximacón fiable.
@@ -46,7 +45,8 @@ Por tanto,
 
 \[
 -\frac{\left(1-(-1)\right)^3}{12}  \displaystyle f^{(2)}(\epsilon)
-
+\]
+\[
 \forall \epsilon \owns [-1,1]
 \]
 
@@ -54,8 +54,9 @@ Por tanto,
 Efectuando la derivada segunda que es necesaria, la ecuación queda:
 \[
 -\frac{2}{3\sqrt(2\pi)} \quad\text{e}^{\frac{\epsilon^2}{-2}}  \displaystyle  (1-\epsilon^2)
-
-\forall \epsilon \owns [-1,1]
+\]
+\[
+$\forall$ \epsilon \owns [-1,1]
 \]
 
 
@@ -71,8 +72,7 @@ y otro.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Descripción del material}
 \label{3:sec:2}
-\parindent=0.2cm
-\raggedright
+
 El material que hemos empleado para la realización de este proyecto es el lenguaje de
 programación Python(versión 2.7.3.), para la creación de los programas que verifican este método de integración, 
 y el sistema de composición de textos \LaTeX para el diseño del proyecto, todo ello efectuado en el sistema operativo
@@ -82,8 +82,7 @@ Bardinux (Linux).
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Resultados obtenidos}
 \label{3:sec:3}
-\parindent=0.2cm
-\raggedright
+
 \subsection{Resultados del primer experimento}
 Los resultados obtenidos son:
 Integral definida 
@@ -109,7 +108,6 @@ Tomando varios valores de $\epsilon$,obtenemos la siguinte gráfica:
 
 
 \includegraphics[width=1\textwidth]{images/imgraf}
-
 Algunos valores representativos son:
 
 $\epsilon$=1$\Rightarrow$ Error=0
@@ -120,15 +118,6 @@ $\epsilon$=0$\Rightarrow$ Error=0.26596
 
 En la siguiente gráfica vemos un ejemplo de uno de los experimentos:
 
-%------------------------------------------------------------
-%\begin{figure}[!th]
-%\begin{center}
-%\includegraphics[width=0.75\textwidth]{images/figura1.eps}
-%\caption{Ejemplo de figura}
-%\label{fig:1}
-%\end{center}
-%\end{figure}
-%------------------------------------------------------------------------------
 Resultados del tiempo empleado para la regla del trapecio simple y la regla del trapecio compuesta
 \input{tables/table.tex}
 
@@ -141,11 +130,10 @@ para interpretar los diferentes comportamientos del tiempo empleado. En el sigui
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Análisis de los resultados}
 \label{3:sec:4}
-\parindent=1cm
-\raggedright
+
  En el primer experimento, en el cual comparábamos los distintos resultados según usáramos los métodos de integración,
- observamos que la integral definida tiene como resultado 0.682689; la integración por la regla del trapecio simple, 0.483941;
- y la integración por la regla del trapecio compuesta, 0.672435.
+observamos que la integral definida tiene como resultado 0.682689; la integración por la regla del trapecio simple, 0.483941;
+y la integración por la regla del trapecio compuesta, 0.672435.
 Así pues, obtenemos un error de 0.1978748 en la regla del trapecio simple y un error de 0.010254 en la regla del trapecio compuesta.
 Podemos ver claramente que la regla del trapecio compuesta es más exacta que la regla del trapecio simple, si bien sigue sin ser del todo exacta.
 Esto tiene sentido con lo llevado a cabo en el segundo experimento, ya que el error máximo encontrado, según el error que se nos daba en la regla del trapecio,
@@ -158,4 +146,7 @@ Si derivamos esta función e igualamos a cero, obtendremos los valores máximos 
 
 Se ve fácilmente que ni el primer múltiplo ni el segundo tiene solución si se igualan a cero, así que la única solución a esa ecuación es $\epsilon$ = 0.
 Su correspondiente error, que será el máximo, es de 0.26596.
+
+En el tercer experimento, al comparar los tiempos de ejecución, hemos visto que a mayor número de divisiones en el método del trapecio compuesto, eran mayores las diferencias
+de tiempo, y por tanto el porcentaje, como es lógico. 
 
