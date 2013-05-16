@@ -162,11 +162,6 @@
 
 \input{tex/apendice1.tex}
 
-\chapter{Título del Apéndice 2}
-\label{appendix:2}
-
-\input{tex/apendice2.tex}
-
 \end{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

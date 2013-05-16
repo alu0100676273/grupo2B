@@ -1,23 +1,25 @@
 \select@language {spanish}
 \contentsline {chapter}{\numberline {1}Motivaci\IeC {\'o}n y objetivos}{1}
-\contentsline {section}{\numberline {1.1}Primera Secci\IeC {\'o}on}{1}
-\contentsline {section}{\numberline {1.2}Segunda Secci\IeC {\'o}n}{1}
+\contentsline {section}{\numberline {1.1}Motivaciones y objetivos}{1}
+\contentsline {section}{\numberline {1.2}Uso de una funci\IeC {\'o}n de estudio}{1}
 \contentsline {chapter}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{2}
 \contentsline {section}{\numberline {2.1}Regla del Trapecio}{2}
 \contentsline {chapter}{\numberline {3}Procedimiento experimental}{3}
 \contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{3}
 \contentsline {subsection}{\numberline {3.1.1}Primer experimento}{3}
-\contentsline {subsection}{\numberline {3.1.2}Segundo experimento}{3}
-\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del material}{4}
-\contentsline {section}{\numberline {3.3}Resultados obtenidos}{4}
-\contentsline {subsection}{\numberline {3.3.1}Resultados del primer experimento}{4}
-\contentsline {subsection}{\numberline {3.3.2}resultados del segundo experimento}{4}
-\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de los resultados}{6}
-\contentsline {chapter}{\numberline {4}Conclusiones}{7}
-\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{9}
-\contentsline {section}{\numberline {A.1}Algoritmo XXX}{9}
-\contentsline {section}{\numberline {A.2}Algoritmo YYY}{9}
-\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{10}
-\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{10}
-\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{10}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{10}
+\contentsline {subsection}{\numberline {3.1.2}Segundo experimento}{5}
+\contentsline {subsection}{\numberline {3.1.3}Tercer experimento}{5}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del material}{5}
+\contentsline {section}{\numberline {3.3}Resultados obtenidos}{5}
+\contentsline {subsection}{\numberline {3.3.1}Resultados del primer experimento}{5}
+\contentsline {subsection}{\numberline {3.3.2}Resultados del segundo experimento}{6}
+\contentsline {subsection}{\numberline {3.3.3}Resultado del tercer experimento}{6}
+\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de los resultados}{7}
+\contentsline {chapter}{\numberline {4}Conclusiones}{8}
+\contentsline {chapter}{\numberline {A}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 1}{11}
+\contentsline {section}{\numberline {A.1}Algoritmo XXX}{11}
+\contentsline {section}{\numberline {A.2}Algoritmo YYY}{12}
+\contentsline {chapter}{\numberline {B}T\IeC {\'\i }tulo del Ap\IeC {\'e}ndice 2}{14}
+\contentsline {section}{\numberline {B.1}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 1}{14}
+\contentsline {section}{\numberline {B.2}Otro ap\IeC {\'e}ndice: Secci\IeC {\'o}n 2}{14}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}
