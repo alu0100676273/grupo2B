@@ -31,7 +31,9 @@
      Universidad de La Laguna
     \end{center}
   \end{scriptsize}
-
+  \begin{figure}
+   \includegraphics[scale=.04, natwidth=320, natheight=160]{logotipo-secundario-ULL.png}
+  \end{figure}
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
  
@@ -53,23 +55,33 @@ La regla del trapecio es un método de integración numérica, es decir, un mét
 calcular aproximadamente el valor de la integral definida.La regla se basa en aproximar el valor de la 
 integral de f(x) por el de la función lineal que pasa a través de los puntos (a, f(a)) y (b, f(b)). La 
 integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal.
-
+\begin{center}
+    \begin{figure}
+   \includegraphics[scale=.1, natwidth=140, natheight=80]{Regla-Trapecio.png}
+    \end{figure}
+ \end{center}
 \end{definicion}
 
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \begin{frame}
 
-\frametitle{Regla del trapecio}
+\frametitle{Regla del trapecio simple}
 Aproximación de la integral definida por el de la función lineal que pasa a través de los puntos (a, f(a)) y (b, f(b)).
 La integral de ésta es igual al área del trapecio bajo la gráfica de la función lineal. Se sigue que:
-$\int_{a}^{b}f(x) , dx \sim (b-a)* \frac{f(a)+ f(b)}{2}$
-y donde el término error corresponde a:
-$-\frac{(b-a)^3}{12}*f(2)(E)$
-
+\[ \int_{a}^{b}f(x) , dx \sim (b-a) \frac{f(a)+ f(b)}{2} \]
+\\y donde el término error corresponde a:
+\[-\frac{(b-a)^3}{12}f''(\epsilon)\]
+Siendo $\epsilon$ un número perteneciente al intervalo [a,b].
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
- 
+\begin{frame}
+\frametitle{Representación gráfica de la regla de trapecio simple}
+\begin{figure}
+   \includegraphics[scale=.5, natwidth=280, natheight=160]{grafica.png}
+    \end{figure}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
 
 \frametitle{Regla del trapecio compuesta}
@@ -79,14 +91,13 @@ La regla del trapecio compuesta o regla de los trapecios es una forma de aproxim
 Primero se divide el intervalo [a,b] en n subintervalos, cada uno de ancho $\Delta x=(b-a)/n$
 
 Después de realizar todo el proceso matemático se llega a la siguiente fórmula:
-
-   $ \int_a^b f(x)\, dx \sim \frac{h}{2} [f(a)+2f(a+h)+2f(a+2h)+...+f(b)]$
+   \[ \int_a^b f(x)\, dx \sim \frac{h}{2} [f(a)+2f(a+h)+2f(a+2h)+...+f(b)] \]
 
 Donde $\textstyle h= \frac{b-a}{n}$ y n es el número de divisiones.
 
 La expresión anterior también se puede escribir como:
+    \[\int_{a}^{b} f(x) dx \sim \frac{b-a}{n} \left( \frac{f(a) + f(b)}{2} + \sum_{k=1}^{n-1} f\left(a + k \frac{b-a}{n}\right) \right) \]
 
-    $\int_{a}^{b} f(x) dx \sim \frac{b-a}{n} \left( \frac{f(a) + f(b)}{2} + \sum_{k=1}^{n-1} f\left(a + k \frac{b-a}{n}\right) \right)$ 
 
 \end{frame}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
@@ -94,33 +105,48 @@ La expresión anterior también se puede escribir como:
 \section{Experimentos}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+\frametitle{Experimentos}
+\begin{itemize}
 
-\subsection{Fórmulas Matemáticas}
+\item<1->
+El primer experimento llevado a cabo es la realización de la integral definida, la aproximación mediante la regla del trapecio simple, y la regla del trapecio compuesta para comprobar la fiabilidad de la aproximación.
+\pause
+\item<2->
+En el segundo experimento analizaremos los resultados obtenidos en tiempo para la regla del trapecio simple y trapecio compuesta.
+\item<3->
+Por último, comprobaremos los distintos errores que puede tomar el teorema para los posibles valores de $\epsilon$.
+\pause
+
+\end{itemize}
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\subsection{Resultados}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 \begin{frame}
-
- \begin{block}{Ejemplo}
+\frametitle{Experimentos}
+ \begin{block}
   
   \begin{itemize}
    \item<1-> Función
    
-    $ f(x)= \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , [-1,1]$
+    $ f(x)= \frac{1}{\sqrt(2\pi)} e^\frac{-x^2}{2} , [-1,1]$
    \pause
 
    \item<2-> Integral definida
    
-   $\int_{-1}^{1} \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , dx\ \sim 0.682689$
+   $\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} e^\frac{-x^2}{2} , dx\ \sim 0.682689$
    \pause
 
-   \item<3-> Regla del trapecio
+   \item<3-> Regla del trapecio simple
    
-   $\int_{-1}^{1} \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , dx\ \sim (1-(-1)) \frac{f(-1)+f(1)}{2} \sim 0.483941$
+   $\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} e^\frac{-x^2}{2} , dx\ \sim \big(1-(-1)\big) \frac{f(-1)+f(1)}{2} \sim 0.483941$
    \pause
   
-   \item<4-> Regla del trapecio compuesta, con n=4
-  
-   $h=\frac{1-(-1)}{4}= \frac{1}{2}$
-   $\int_{-1}^{1} \frac{1}{\sqrt(2*\pi)} e^\frac{-x^2}{2} , dx\ \sim [f(-1)+f(-\frac{1}{2})+f(0)+f(\frac{1}{2})+f(1)] \sim 0.882385$
+   \item<4-> Regla del trapecio compuesta, con n=4 
+  \\$h=\frac{1-(-1)}{4}= \frac{1}{2}$\\
+   $\int_{-1}^{1} \frac{1}{\sqrt(2\pi)} e^\frac{-x^2}{2} , dx\ \sim \frac{h}{2} \big[f(-1)+2f(-\frac{1}{2})+2f(0)+2f(\frac{1}{2})+f(1) \big]$
+  \[ \sim 0.672435 \]
    
   \end{itemize}
  \end{block}
@@ -128,16 +154,16 @@ La expresión anterior también se puede escribir como:
 \end{frame}
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-\subsection{Tiempo y velocidad}
+\subsection{Tiempo}
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{frame}
- \frametitle{Tiempo y velocidad}
-Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta.
+ \frametitle{Tiempo}
+Resultados obtenidos en tiempo para la regla del trapecio simple y la regla del trapecio compuesta.
   
  \begin{center}
     \begin{figure}
-   \includegraphics[scale=.5, natwidth=640, natheight=480]{tabla.png}
+   \includegraphics[scale=.5, natwidth=640, natheight=480]{tiempo.png}
     \end{figure}
  \end{center}
 
@@ -152,8 +178,8 @@ Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y l
 \begin{frame}
 \frametitle{Comprobación}
 Errores que puede tomar el teorema para los posibles valores de $\epsilon$
-Siendo $\epsilon$ un número perteneciente al intervalo [a,b]. En este caso el intervalo es [-1,1].Por tanto:
-$ \frac{-(b-a)^3}{12}f^(2)(\epsilon) para todo \epsilon perteneciente a [-1,1]$
+siendo $\epsilon$ un número perteneciente al intervalo [a,b]. En este caso el intervalo es [-1,1].Por tanto:
+$ \frac{-(b-a)^3}{12}f''(\epsilon)$  $\forall \epsilon$ $perteneciente$ $a$ $[-1,1]$
 
 \begin{center}
     \begin{figure}
@@ -169,11 +195,10 @@ $ \frac{-(b-a)^3}{12}f^(2)(\epsilon) para todo \epsilon perteneciente a [-1,1]$
 
     \beamertemplatebookbibitems
     \bibitem[Wikipedia]{Wikipedia: Regla del trapecio}
-    Regla del trapecio {\small $//http://es.wikipedia.org/wiki/Regla_del_trapecio$}
-
+    Regla del trapecio {\small $//http://es.wikipedia.org/wiki/Regladeltrapecio$}
     \beamertemplatebookbibitems
-    \bibitem[Wikipedia]{latex} 
-     Wikipedia {\small $http://www.http://es.wikipedia.org/wiki/LaTeX$}
+    \bibitem[Ull]
+     IIntroducción a Beamer{\small $//http://campusvirtual.ull.es$}
 
   \end{thebibliography}
 \end{frame}

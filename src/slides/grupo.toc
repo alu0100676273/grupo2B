@@ -1,8 +1,8 @@
 \beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{5}{0}{1}
-\beamer@sectionintoc {2}{Experimentos}{8}{0}{2}
-\beamer@subsectionintoc {2}{1}{F\IeC {\'o}rmulas Matem\IeC {\'a}ticas}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{Tiempo y velocidad}{12}{0}{2}
-\beamer@sectionintoc {3}{Error}{13}{0}{3}
-\beamer@subsectionintoc {3}{1}{Error}{13}{0}{3}
+\beamer@sectionintoc {2}{Experimentos}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Resultados}{12}{0}{2}
+\beamer@subsectionintoc {2}{2}{Tiempo}{16}{0}{2}
+\beamer@sectionintoc {3}{Error}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Error}{17}{0}{3}

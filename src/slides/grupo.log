@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  14 MAY 2013 17:31
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.26)  16 MAY 2013 12:42
 entering extended mode
  %&-line parsing enabled.
 **grupo
@@ -1072,54 +1072,78 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./grupo.nav)
+<logotipo-secundario-ULL.png, id=38, 1462.46375pt x 1505.625pt>
+File: logotipo-secundario-ULL.png Graphic file (type png)
+
+<use logotipo-secundario-ULL.png>
+Overfull \vbox (9.5997pt too high) detected at line 37
+ []
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 35.
+(Font)              size <5> substituted on input line 37.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./grupo.toc) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logotipo-secundario-ULL.
+png>] (./grupo.toc) [2
 
-]
-(./grupo.toc) [3
+] (./grupo.toc) [3
 
 ] (./grupo.toc) [4
 
-] [5
-
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+<Regla-Trapecio.png, id=181, 791.95876pt x 602.25pt>
+File: Regla-Trapecio.png Graphic file (type png)
+ <use Regla-Trapecio.png>
+[5
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+ <./Regla-Trapecio.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 70.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [6
 
-] [7
+]
+<grafica.png, id=243, 557.83406pt x 405.76593pt>
+File: grafica.png Graphic file (type png)
+ <use grafica.png> [7
 
-] [8
+ <./grafica.png (PNG copy)>]
+Overfull \vbox (4.02594pt too high) detected at line 102
+ []
+
+[8
 
 ] [9
 
 ] [10
 
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] [15
+
 ]
-[11
+<tiempo.png, id=480, 552.56438pt x 131.74219pt>
+File: tiempo.png Graphic file (type png)
+ <use tiempo.png> [16
 
-] <tabla.png, id=368, 235.63031pt x 141.52875pt>
-File: tabla.png Graphic file (type png)
- <use tabla.png> [12
-
- <./tabla.png (PNG copy)>] <graf.png, id=395, 663.22781pt x 551.05875pt>
+ <./tiempo.png (PNG copy)>] <graf.png, id=506, 663.22781pt x 551.05875pt>
 File: graf.png Graphic file (type png)
+ <use graf.png>
+[17
 
-<use graf.png> [13
-
- <./graf.png (PNG copy)>] [14
+ <./graf.png (PNG copy)>] [18
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonbook.pdf>]
 \tf@nav=\write6
@@ -1138,35 +1162,26 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15576 strings out of 495061
- 288320 string characters out of 1182621
- 361504 words of memory out of 3000000
- 18284 multiletter control sequences out of 15000+50000
+ 15606 strings out of 495061
+ 288888 string characters out of 1182621
+ 362504 words of memory out of 3000000
+ 18306 multiletter control sequences out of 15000+50000
  13620 words of font info for 51 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,16n,62p,417b,792s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.3.1.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.2.2.10} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.2.1.6} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on grupo.pdf (14 pages, 244382 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmss8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on grupo.pdf (18 pages, 367764 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
