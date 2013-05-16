@@ -13,4 +13,4 @@ Sin embargo, la integración por trapecio simple es un método que posee un erro
 También la función del error es par, con lo que no era necesario tomar valores entre -1 y 1, sino que bastaba con tomarlos entre 0 y 1. Asimismo, igualando la
 derivada de dicha función cero, pudimos obtener un error máximo, que es muy útil ya que el método del trapecio simple no es muy exacto. Con ello se consigue una cota 
 superior e inferior de la integral definida, por lo que finalmente se le encuentra una gran utilidad a esta regla; debemos recordar que la regla del
-trapecio compuesta no tiene una valor que nos pueda definir el error producido.
+trapecio compuesta no tiene un valor que nos pueda definir el error producido.

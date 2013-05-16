@@ -29,6 +29,7 @@ En esta gráfica vemos la función original y el área que va a ser evaluada por
  y (1,0), habiendo calculado f(1) = f(-1) = 0.24197 .
 
 \includegraphics[width=1.15\textwidth]{images/trasim}
+
  Regla del Trapecio compuesta con n=4
 \[
 h=\frac{1-(-1)}{4} =\frac{1}{2} 
@@ -61,7 +62,9 @@ Efectuando la derivada segunda que es necesaria, la ecuación queda:
 
 \subsection{Tercer experimento}
 En este experimento se comparará la eficiencia del tiempo que se tarda en hallar dos resultados de la integral, en un caso
- por la integración de trapecio simple y en el otro caso por la integración de trapecio compuesta.
+ por la integración de trapecio simple y en el otro caso por la integración de trapecio compuesta. El programa empleado para
+ello nos permitirá repetir el experimento tantas veces como deseemos y de esta manera se podrá sacar un porcentaje de error entre un tiempo 
+y otro.
 
 
 
@@ -105,13 +108,18 @@ Tomando varios valores de $\epsilon$,obtenemos la siguinte gráfica:
 
 
 
-\includegraphics[width=1.25\textwidth]{images/imgraf}
+\includegraphics[width=1\textwidth]{images/imgraf}
 
 Algunos valores representativos son:
 
 $\epsilon$=1$\Rightarrow$ Error=0
 
 $\epsilon$=0$\Rightarrow$ Error=0.26596
+
+\subsection{Resultado del tercer experimento}
+
+En la siguiente gráfica vemos un ejemplo de uno de los experimentos:
+
 %------------------------------------------------------------
 %\begin{figure}[!th]
 %\begin{center}
@@ -121,8 +129,13 @@ $\epsilon$=0$\Rightarrow$ Error=0.26596
 %\end{center}
 %\end{figure}
 %------------------------------------------------------------------------------
-Resultados obtenidos en tiempo y velocidad para la regla del trapecio simple y la regla del trapecio compuesta
+Resultados del tiempo empleado para la regla del trapecio simple y la regla del trapecio compuesta
 \input{tables/table.tex}
+
+cuyo porcentaje de error del trapecio compuesto con respecto al simple fue de 99.9668.
+El experimento se ejecutó varias veces y con distinto número de divisiones para la regla del trapecio compuesto,
+para interpretar los diferentes comportamientos del tiempo empleado. En el siguiente apartado se analizarán dichos comportamientos.
+
 %------------------------------------------------------------------------------
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -145,4 +158,7 @@ Si derivamos esta función e igualamos a cero, obtendremos los valores máximos 
 
 Se ve fácilmente que ni el primer múltiplo ni el segundo tiene solución si se igualan a cero, así que la única solución a esa ecuación es $\epsilon$ = 0.
 Su correspondiente error, que será el máximo, es de 0.26596.
+
+En el tercer experimento, al comparar los tiempos de ejecución, hemos visto que a mayor número de divisiones en el método del trapecio compuesto, eran mayores las diferencias
+ de tiempo, y por tanto el porcentaje, como es lógico. 
 

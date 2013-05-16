@@ -13,4 +13,14 @@ Sin embargo, la integración por trapecio simple es un método que posee un erro
 También la función del error es par, con lo que no era necesario tomar valores entre -1 y 1, sino que bastaba con tomarlos entre 0 y 1. Asimismo, igualando la
 derivada de dicha función cero, pudimos obtener un error máximo, que es muy útil ya que el método del trapecio simple no es muy exacto. Con ello se consigue una cota 
 superior e inferior de la integral definida, por lo que finalmente se le encuentra una gran utilidad a esta regla; debemos recordar que la regla del
-trapecio compuesta no tiene un valor que nos pueda definir el error producido.
+trapecio compuesta no tiene un valor que nos pueda definir el error producido, ni por tanto ningún tipo de cota inferior o superior.
+
+En el último experimento, vemos claramente que es más eficiente, en lo que se refiere la variable temporal, la regla del trapecio simple. Más aún si intentamos
+precisar el resultado de la integral por el método compuesto, es decir, aumentar el número de divisiones del intervalo. Cuantas menos divisiones la diferencia de tiempos
+y el porcentaje será menor. No obstante, está claro que el tiempo es influido no sólo por la complejidad del programa, puesto que en ocasiones, la regla compuesta
+es más rápida que la regla simple de otro experimento, esto es, en estos casos la memoria y velocidad del ordenador se ven afectadas por otros procesos que 
+puedan estar llevándose a cabo, con lo que el programa es más lento en esos momentos. Suponiendo un caso extremo, como un millón de divisiones, el programa sigue
+funcionando, sin tardar en exceso (en ningún caso más de dos segundos, para poner un límite), y obtendríamos una aproximación muy exacta de la integral, y en esta
+función en particular, el error que se obtendría no se podría notar ni siquiera en la diezmilésima, por lo que podemos afirmar que es un experimento muy eficiente si al 
+menos nos permitimos un par de segundos. Si aumentamos más todavía el número de divisiones, el tiempo empleado iría creciendo exponencialmente puesto que le estaremos
+exigiendo mucha potencia al ordenador, y no todos disponen de ella.

@@ -36,7 +36,7 @@ el intervalo de integración entre a y b en n subintervalos, cada uno de ancho
 y aplicar el método a cada uno de ellos. Las ecuaciones resultantes son llamadas fórmulas
 de integración de múltiple aplicación o compuestas.
 \[
-\int_{a}^{b} f(x)dx \sim\frac{h}{2}\left[f(a) + f(a+h) + f(a+2h) + ... + f(b)\right]
+\int_{a}^{b} f(x)dx \sim\frac{h}{2}\left[f(a) + 2f(a+h) + 2f(a+2h) + ... + f(b)\right]
 \]
 Donde 
 \[
